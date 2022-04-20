@@ -15,6 +15,22 @@ a{
 #logo-colores{
     max-width: 400px;
 }
+.magenta{
+    background-color: #F20587;
+    color: #fff;
+}
+.amarillo{
+    background-color: #e4cb30;
+    color: #fff;
+}
+.azu{
+    background-color: #599edf;
+    color: #fff;
+}
+.verde{
+    background-color: #56983f;
+    color: #fff;
+}
 .textura{
     background-image: url("../img/textura-papel.png");
     background-position: center;
@@ -135,4 +151,13 @@ a{
 .serv{
     background-color: #ECECEC;
     color: #454545;
+}
+.nav-item{
+    position: relative;
+}
+.texto{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, 50%);
 }
