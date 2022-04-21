@@ -5,6 +5,15 @@
 a{
     text-decoration: none;
 }
+.fa-bars{
+    color: #fff;
+}
+.fa-xmark{
+    width: 100px;
+}
+#menu{
+    display: none;
+}
 #icono-menu{
     max-width: 20px;
 }
@@ -14,6 +23,17 @@ a{
 }
 #logo-colores{
     max-width: 400px;
+}
+#logo-menu{
+    max-width: 400px;
+}
+.menu a{
+    color: #fff;
+}
+.magenta-menu{
+    background-color: #F20587;
+    color: transparent;
+    margin-bottom: -8px;
 }
 .magenta{
     background-color: #F20587;
@@ -62,13 +82,17 @@ a{
     background: #111;
     color: #fff;
     z-index: 2;
+    
 }
 .showcase header{
+    background-image: linear-gradient( top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4));
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    color: #fff;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 40px 100px;
+    padding: 0px 100px;
     z-index: 1000;
     display: flex;
     align-items: center;
@@ -156,8 +180,93 @@ a{
     position: relative;
 }
 .texto{
+    color: #fff;
     position: absolute;
-    top: 35%;
-    left: 50%;
+    top: 40%;
+    left: 52%;
+    right: 0;
     transform: translate(-50%, 50%);
+}
+.texto:hover{
+    color: #F20587;
+}
+.texto-1{
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 46%;
+    right: 0;
+    transform: translate(-50%, 50%);
+}
+.texto-1:hover{
+    color: #599edf;
+}
+.texto-2{
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 52%;
+    right: 0;
+    transform: translate(-50%, 50%);
+}
+.texto-2:hover{
+    color: #e4cb30;
+}
+.texto-3{
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    right: 0;
+    transform: translate(-50%, 50%);
+}
+.texto-3:hover{
+    color: #56983f;
+}
+.menu_hr{
+    width: 500px;
+    border: 1px solid #fff;
+}
+hr{
+    margin: 1rem;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: 1;
+}
+.terminos .aviso{
+    color: #454545;
+}
+.whats{
+    border-right: 1px solid #fff;
+    margin-left: 9rem;
+}
+.email{
+    border-right: 1px solid #fff;
+    margin-left: -80px;
+}
+.insta{
+    border-right: 1px solid #fff;
+    margin-left: -70px;
+}
+.btn-menu{
+    margin-right: 30px;
+}
+.texto-vertical{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+@media screen and (max-width:500px){
+    .whats{
+        margin-left: 0;
+    }
+    .email{
+        margin-left: 0;
+    }
+    .insta{
+        margin-left: 0;
+    }
+    .btn-menu{
+        margin-right: 0;
+    }
 }
