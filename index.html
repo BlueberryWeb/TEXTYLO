@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="shortcut icon" href="img/textylo-favicon.png"/>
+    <link rel="stylesheet" href="css/animate.css">
     <title>TEXTYLO</title>
 </head>
 <body>
@@ -52,12 +53,12 @@
         <video src="vid/Video-header.mp4" muted loop autoplay ></video>    
     </section>
     <!--MENU-->
-    <div class="" id="menu">
+    <div class="" id="menu" >
         <div class="container-fluid magenta-menu">
           <h1 class="display-4">hola</h1>
         </div>
-        <div class="container-fluid azul">
-          <div class="container">
+        <div class="container-fluid azul ">
+          <div class="container" >
             <div class="row pt-5">
               <div class="col-12 col-lg-10 col-md-12 col-sm-12"></div>
               <div class="col-12 col-lg-2 col-md-12 col-sm-12 text-end">
@@ -67,11 +68,10 @@
               </div>
             </div>
             <div class="row d-flex justify-content-center pt-2">
-              <img src="img/textylo-logo.png" alt="TEXTYLO" class="img-fluid" id="logo-menu"/>
-             
+              <img src="img/textylo-logo.png" alt="TEXTYLO" class="img-fluid " id="logo-menu"/>
               <div class="mb-3 pt-5 text-center">
                 <div class="row d-flex justify-content-center">
-                  <a href="">
+                  <a href="#showcase">
                     <h1> INICIO</h1>
                    </a>
                   <hr class="menu_hr">
@@ -79,7 +79,7 @@
               </div>
               <div class="mb-3 text-center">
                 <div class="row d-flex justify-content-center">
-                  <a href="#">
+                  <a href="#somos">
                     <h1>SOMOS</h1>
                     </a>
                   <hr class="menu_hr">
@@ -88,7 +88,7 @@
               </div>
               <div class="mb-3 text-center">
                 <div class="row d-flex justify-content-center">
-                  <a href="#">
+                  <a href="#ventajas">
                     <h1>VENTAJAS</h1>
                     </a>
                   <hr class="menu_hr">
@@ -96,7 +96,7 @@
               </div>
               <div class="mb-3 text-center">
                 <div class="row d-flex justify-content-center">
-                  <a href="#">
+                  <a href="#aplicaciones">
                     <h1>APLICACIONES</h1>
                   </a>
                   <hr class="menu_hr">
@@ -104,7 +104,7 @@
               </div>
               <div class="mb-3 text-center">
                 <div class="row d-flex justify-content-center">
-                  <a href="#">
+                  <a href="#servicios">
                     <h1>SERVICIOS</h1>
                     </a>
                   <hr class="menu_hr">
@@ -112,7 +112,7 @@
               </div>
               <div class="mb-3 text-center">
                 <div class="row d-flex justify-content-center">
-                  <a href="#"><h1>CONTACTO</h1> </a>
+                  <a href="#contacto"><h1>CONTACTO</h1> </a>
                   <hr class="menu_hr">
                 </div>
                 
@@ -126,16 +126,16 @@
             </div>
           </div>
         </div>
-      </div>
+    </div>
     <!--TERMINA EL MENU-->
     <!--LOGO-->
-    <div class="row d-flex justify-content-center pt-5 pb-5">
-        <img src="img/logo-textylo-colores.gif" alt="TEXTYLO" id="logo-colores"/>
+    <div class="row d-flex justify-content-center pt-5 pb-5" id="somos">
+        <img src="img/logo-textylo-colores.gif" alt="TEXTYLO" id="logo-colores" class="img-fluid " />
     </div>
-    <!--NO ES SUBLIMAR, ES EXPRESAR TODO UN UNIVERSO EN TELA-->
+    <!--NO ES SUBLIMAR, ES EXPRESAR TODO UN UNIVERSO EN TELA VIDEO-->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-lg-6 col-md-12 col-sm-12 magenta">
+            <div class="col-12 col-lg-6 col-md-12 col-sm-12">
                 <video autoplay loop muted class="video-bg_video" style="width: 800px;">
                     <source src="vid/loop-somos.mp4" type="video/mp4">
                   </video>
@@ -154,9 +154,9 @@
         </div>
     </div>
     <!--EN TEXTYLO-->
-    <div class="row d-flex justify-content-center pt-5 ">
+    <div class="row d-flex justify-content-center pt-5 " id="ventajas">
         <h4 class="text-center"><b>EN TEXTYLO</b></h4>
-        <hr>
+        <hr class="textylo_hr">
         <p class="text-center">Somos especialistas en sublimación, es un proceso en el cual se <br>
         transfiere alguna impresión del papel a la tela, dándole mayor <br>
         durabilidad y versatilidad siendo amigables con el medio ambiente</p>
@@ -237,7 +237,7 @@
         </div>
     </div>
     <!--PROMOCIONALES, ROPA DEPORTIVA, SUBLIMACIÓN, ROPA-->
-    <div class="container-fluid gris pt-5 pb-5">
+    <div class="container-fluid gris pt-5 pb-5" id="aplicaciones">
         <div class="row">
             <div class="col-12 col-lg-3 col-md-12 col-sm-12">
                 <img src="img/promocionales.png" alt="TEXTYLO" width="200px"/>
@@ -293,10 +293,10 @@
         </div>   
     </section>
     <!--NUESTROS SERVICIOS-->
-    <div class="container-fluid serv">
+    <div class="container-fluid serv" id="servicios">
         <div class="row d-flex justify-content-center pt-5">
             <h4 class="text-center"><b>NUESTROS SERVICIOS</b></h4>
-            <hr>
+            <hr class="serv_hr">
             <p class="text-center">En Textylo contamos con diferentes servicios para <br> ofrecerte la mejor solución a tu necesidad</p>
         </div>
         <div class="container pb-5 pt-3 serv">
@@ -308,7 +308,7 @@
         </div>
     </div>
     <!--FORMULARIO-->
-    <div class="container-fluid azul pt-5 pb-5">
+    <div class="container-fluid azul pt-5 pb-5" id="contacto">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-1 col-md-12 col-sm-12"></div>
@@ -386,6 +386,8 @@
     <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="lib/easy-waypoint-animate.js"></script>
+    <script src="lib/jquery.waypoints.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
