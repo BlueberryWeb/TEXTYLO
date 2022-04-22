@@ -232,6 +232,73 @@ a{
 }
 .rop a{
     position: relative;
+    font-family: 'Monserrat Semi-bold';
+}
+.promocionales{
+    background-image: url("../img/promocionales.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.promocionales::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(197, 0, 122, 0.6);
+}
+.promocionales a{
+    position: relative;
+    font-family: 'Monserrat Semi-bold';
+}
+.trajes{
+    background-image: url("../img/ropa-deportiva.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.trajes::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(89, 158, 223, 0.6);
+}
+.trajes a{
+    position: relative;
+    font-family: 'Monserrat Semi-bold';
+}
+.decorativa{
+    background-image: url("../img/decorativa.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.decorativa::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(228, 203, 48, 0.6);
+}
+.decorativa a{
+    position: relative;
+    font-family: 'Monserrat Semi-bold';
 }
 .texto{
     color: #fff;
@@ -242,7 +309,7 @@ a{
     transform: translate(-50%, 50%);
 }
 .texto:hover{
-    color: #F20587;
+    color: #fff;
 }
 .texto-1{
     color: #fff;
@@ -253,7 +320,7 @@ a{
     transform: translate(-50%, 50%);
 }
 .texto-1:hover{
-    color: #599edf;
+    color: #fff;
 }
 .texto-2{
     color: #fff;
@@ -264,18 +331,18 @@ a{
     transform: translate(-50%, 50%);
 }
 .texto-2:hover{
-    color: #e4cb30;
+    color: #fff;
 }
 .texto-3{
     color: #fff;
     position: absolute;
     top: 40%;
-    left: 60%;
+    left: 50%;
     right: 0;
     transform: translate(-50%, 50%);
 }
 .texto-3:hover{
-    color: #56983f;
+    color: #fff;
 }
 .menu_hr{
     width: 500px;
@@ -341,6 +408,18 @@ footer a{
 .btn-flotante:hover {
   transform: translateY(-7px);
 }
+/*TERMINA BOTÓN*/
+#F-azul, #F-verde, #F-amarilla, #amarillo, #azul, #verde{
+    display: none;
+}
+.almohada{
+    position: relative;
+    z-index: 1;
+}
+.sudadera{
+    position: absolute;
+    margin-left: -200px;
+}
 @media screen and (max-width:300px){
     .whats{
         margin-left: 0;
@@ -355,10 +434,19 @@ footer a{
         margin-right: 0;
     }
     .video-bg_video{
-        max-width: 200px;
+        max-width: 100px!important;
     }
     .showcase header{
         padding: 0;
+    }
+    .reveal img{
+        margin-left: -100px;
+    }
+    .almohada{
+        max-width: 300px;
+    }
+    .sudadera{
+        max-width: 280px;
     }
 }
 @media screen and (max-width:400px){
@@ -380,6 +468,15 @@ footer a{
     .showcase header{
         padding: 0;
     }
+    .reveal img{
+        margin-left: -100px;
+    }
+    .almohada{
+        max-width: 300px;
+    }
+    .sudadera{
+        max-width: 280px;
+    }
 }
 @media screen and (max-width:500px){
     .whats{
@@ -399,6 +496,15 @@ footer a{
     }
     .showcase header{
         padding: 0;
+    }
+    .reveal img{
+        margin-left: -100px;
+    }
+    .almohada{
+        max-width: 300px;
+    }
+    .sudadera{
+        max-width: 280px;
     }
 }
 @media screen and (max-width:600px){
@@ -420,6 +526,15 @@ footer a{
     .showcase header{
         padding: 0;
     }
+    .reveal img{
+        margin-left: -90px;
+    }
+    .almohada{
+        max-width: 300px;
+    }
+    .sudadera{
+        max-width: 280px;
+    }
 }
 @media screen and (max-width:700px){
     .whats{
@@ -439,5 +554,14 @@ footer a{
     }
     .showcase header{
         padding: 0;
+    }
+    .reveal img{
+        margin-left: -90px;
+    }
+    .almohada{
+        max-width: 300px;
+    }
+    .sudadera{
+        max-width: 300px;
     }
 }

@@ -7,166 +7,397 @@
     <script src="https://kit.fontawesome.com/4514d9060c.js" ></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="shortcut icon" href="img/textylo-favicon.png"/>
     <title>TEXTYLO</title>
 </head>
 <body>
-  <!--<div class="container-fluid menu pt-3">
-    <div class="container">
-      <div class="row pt-2">
-        <div class="col-12 col-lg-2 col-sm-12 col-md-12 justify-content-center">
-          <img src="img/textylo-logo.png" alt="TEXTYLO" class="img-fluid ms-5" id="logo-header"/></a>
+  
+  <div class="container">
+    <div class="row wp-animated-group">
+      <div class="col-12 col-lg-3 col-md-6 col-sm-6">
+        <div class="promocionales wp-animated" id="ropa-tab"  data-animation="zoomIn" data-animation-duration="5s">
+          <a class="texto"  type="button" onclick="magenta()">PROMOCIONALES</a>
         </div>
-        <div class="col-12 col-lg-3 col-sm-12 col-md-12"></div>
-        <div class="col-12 col-lg-2 col-sm-12 col-md-12 text-end whats pt-2">
-          <img src="img/icono-Whats.png" alt="TEXTYLO" id="icono-menu" class="img-fluid me-2"/>
-          <a href="https://api.whatsapp.com/send?phone=5554360428">555 436 0428</a>
+        <div class="d-flex justify-content-center wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
+          <img src="img/flecha-magenta.png" alt="TEXTYLO" class="img-fluid" id="F-magenta"/>
         </div>
-        <div class="col-12 col-lg-3 col-sm-12 col-md-12 text-end email pt-2">
-          <img src="img/icono-correo-menu.png" alt="TEXTYLO" id="icono-menu" class="img-fluid me-2"/>
-          <a href="mailto:">contacto@textylo.com</a>
+      </div>
+      <div class="col-12 col-lg-3 col-md-6 col-sm-6">
+        <div class="trajes wp-animated" id="ropa-tab1" data-animation="zoomIn" data-animation-delay="0.5s" data-animation-duration="5s">
+          <a class=" texto-1"  type="button" onclick="azul()">ROPA DEPORTIVA Y <br> TRAJES DE BAÑO</a>
         </div>
-        <div class="col-12 col-lg-1 col-sm-12 col-md-12 insta pt-2">
-          <div class="text-end">
-            <a href="https://www.instagram.com/textylomexico" target="_blank" rel="noopener noreferrer">
-              <img src="img/icono-IG-menu.png" alt="TEXTYLO" id="icono-menu" class="img-fluid"/>
-            </a>
-          </div>  
+        <div class="d-flex justify-content-center">
+          <img src="img/flecha-azul.png" alt="TEXTYLO" class="img-fluid" id="F-azul"/>
         </div>
-        <div class="col-12 col-lg-1 col-sm-12 col-md-12 pt-1">
-          <div class="text-end btn-menu">
-            <button class="btn btn-outline " onclick="menu()">
-              <img src="img/burger-menu.png" alt="MENÚ" class="img-fluid "/>
-          </div>
+      </div>
+      <div class="col-12 col-lg-3 col-md-6 col-sm-6">
+        <div class="decorativa wp-animated" id="ropa-tab2"data-animation="zoomIn" data-animation-delay="1s" data-animation-duration="5s">
+          <a class=" texto-2"  type="button" onclick="amarillo()">SUBLIMACIÓN Y <br> DECORATIVA</a>
         </div>
-        <hr class="mt-3">
+        <div class="d-flex justify-content-center">
+          <img src="img/flecha-amarilla.png" alt="TEXTYLO" class="img-fluid" id="F-amarilla"/>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-md-6 col-sm-6">
+        <div class="rop wp-animated" id="ropa-tab3" data-animation="zoomIn" data-animation-delay="1.5s" data-animation-duration="5s">
+          <a class=" texto-3"  type="button" onclick="verde()">ROPA</a>
+        </div>
+        <div class="d-flex justify-content-center">
+          <img src="img/flecha-verde.png" alt="TEXTYLO" class="img-fluid" id="F-verde"/>
+        </div>
       </div>
     </div>
-  </div>
- <!--Video del header
- <section class="showcase" id="showcase">
-  <header class="navbar navbar-expand-lg">
-      <div class="container-fluid menu pt-3">
-          <div class="container">
-            <div class="row pt-2">
-              <div class="col-12 col-lg-2 col-sm-12 col-md-12 justify-content-center">
-                <img src="img/textylo-logo.png" alt="TEXTYLO" class="img-fluid ms-5" id="logo-header"/></a>
+    <div class="row">
+      <div class="container wp-animated-group " id="magenta">
+        <div class="row">
+          <div class="col-12 col-lg-2 col-md-12 col-sm-12 pt-4 wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
+              <div class="texto-vertical ms-5 " >
+                <h1 class="display-4" style="color: #F20587;">PROMOCIONALES</h1>
               </div>
-              <div class="col-12 col-lg-3 col-sm-12 col-md-12"></div>
-              <div class="col-12 col-lg-2 col-sm-12 col-md-12 text-end whats pt-2">
-                <img src="img/icono-Whats.png" alt="TEXTYLO" id="icono-menu" class="img-fluid me-2"/>
-                <a href="https://api.whatsapp.com/send?phone=5554360428">555 436 0428</a>
+          </div>
+          <div class="col-12 col-lg-10 col-md-12 col-sm-12 pt-2 magenta">
+            <div class="row">
+              <div class="col-12 col-lg-5 col-md-12 col-sm-12 pt-5">
+                <img src="img/textylo-logo.png" alt="TEXTYLO" class="img-fluid ms-5 wp-animated" data-animation="fadeInDown" data-animation-duration="5s"/>
+                <h1 class="pt-5 ms-5 wp-animated" data-animation="fadeInDown" data-animation-delay="0.5s" data-animation-duration="5s">Realzamos <br> <b>el poder</b> <br> de tu marca</h1>
+                <div class="row">
+                  <div class="col-12 col-lg-6 col-md-6 col-sm-6">
+                    <ul class="pt-5 ms-4 semi-bold">
+                      <li class=" wp-animated" data-animation="fadeInDown" data-animation-delay="0.7s" data-animation-duration="5s">PLAYERAS</li>
+                      <li class="pt-3 wp-animated" data-animation="fadeInDown" data-animation-delay="0.9s" data-animation-duration="5s">MANTELES <br> CORPORATIVOS</li>
+                      <li class="pt-3 wp-animated" data-animation="fadeInDown" data-animation-delay="1s" data-animation-duration="5s">COJINES <br> PUBLICITARIOS</li>
+                      <li class="pt-3 wp-animated" data-animation="fadeInDown" data-animation-delay="1.2s" data-animation-duration="5s">FUNDAS PARA <br> SILLAS</li>
+                    </ul>
+                  </div>
+                  <div class="col-12 col-lg-6 col-md-6 col-sm-6">
+                    <ul class="pt-5 ms-4 semi-bold">
+                      <li class=" wp-animated" data-animation="fadeInDown" data-animation-delay="0.7s" data-animation-duration="5s">UNIFORMES</li>
+                      <li class="pt-3 wp-animated" data-animation="fadeInDown" data-animation-delay="0.9s" data-animation-duration="5s">BANDERINES PUBLICITARIOS</li>
+                      <li class="pt-3 wp-animated" data-animation="fadeInDown" data-animation-delay="1s" data-animation-duration="5s">LONAS <br> Y TOLDOS</li>
+                      <li class="pt-3 wp-animated" data-animation="fadeInDown" data-animation-delay="1.2s" data-animation-duration="5s">CUBREBOCAS</li>
+                      </ul>
+                  </div>
+                </div> 
               </div>
-              <div class="col-12 col-lg-3 col-sm-12 col-md-12 text-end email pt-2">
-                <img src="img/icono-correo-menu.png" alt="TEXTYLO" id="icono-menu" class="img-fluid me-2"/>
-                <a href="mailto:">contacto@textylo.com</a>
-              </div>
-              <div class="col-12 col-lg-1 col-sm-12 col-md-12 insta pt-2">
-                <div class="text-end">
-                  <a href="https://www.instagram.com/textylomexico" target="_blank" rel="noopener noreferrer">
-                    <img src="img/icono-IG-menu.png" alt="TEXTYLO" id="icono-menu" class="img-fluid"/>
-                  </a>
-                </div>  
-              </div>
-              <div class="col-12 col-lg-1 col-sm-12 col-md-12 pt-1">
-                <div class="text-end btn-menu">
-                  <button class="btn btn-outline " onclick="menu()">
-                    <img src="img/burger-menu.png" alt="MENÚ" class="img-fluid "/>
+              <div class="col-12 col-lg-7 col-md-12 col-sm-12 pt-5 pb-5 wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/promocionales-flag.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid" />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/promocionales-gorras.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/promocionales-lonchera.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/promocionales-mesa.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/promocionales-mochila.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/promocionales-sombrilla.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
               </div>
-              <hr class="mt-3">
             </div>
           </div>
+        </div>    
       </div>
-  </header>
-  <hr>
-  <video src="vid/Video-header.mp4" muted loop autoplay ></video>    
-</section>
-<div class="" id="menu">
-  <div class="container-fluid magenta-menu">
-    <h1 class="display-4">hola</h1>
-  </div>
-  <div class="container-fluid azul">
-    <div class="container">
-      <div class="row pt-5">
-        <div class="col-12 col-lg-10 col-md-12 col-sm-12"></div>
-        <div class="col-12 col-lg-2 col-md-12 col-sm-12 text-end">
-          <button class="btn close" onclick="cerrar()">
-            <img src="img/btn-close.png" alt="CLOSE" class="img-fluid btn-close"/>
-          </button>
-        </div>
+      <div class="container wp-animated-group " id="azul">
+        <div class="row">
+          <div class="col-12 col-lg-2 col-md-12 col-sm-12 pt-4 wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
+            <div class="texto-vertical ms-5 ">
+              <h1 class="display-4" style="color: #599edf;">ROPA DEPORTIVA</h1>
+            </div>
+          </div>
+          <div class="col-12 col-lg-10 col-md-12 col-sm-12 pt-2 azu">
+            <div class="row">
+              <div class="col-12 col-lg-5 col-md-12 col-sm-12 pt-5">
+                <img src="img/textylo-logo.png" alt="TEXTYLO" class="img-fluid ms-5 wp-animated" data-animation="fadeInDown" data-animation-duration="5s"/>
+                <h1 class="pt-5 ms-5 wp-animated" data-animation="fadeInDown" data-animation-delay="0.5s" data-animation-duration="5s">Lleva tu identidad <br> <b>en cada evento</b> <br> deportivo</h1>
+                <div class="row">
+                  <div class="col-12 col-lg-6 col-md-6 col-sm-6">
+                    <ul class="pt-5 ms-4 semi-bold">
+                      <li class=" wp-animated" data-animation="fadeInDown" data-animation-delay="0.7s" data-animation-duration="5s">PLAYERAS</li>
+                      <li class="pt-3 wp-animated" data-animation="fadeInDown" data-animation-delay="0.9s" data-animation-duration="5s">SHORTS</li>
+                      <li class="pt-3 wp-animated" data-animation="fadeInDown" data-animation-delay="1s" data-animation-duration="5s">PANTS</li>
+                      <li class="pt-3 wp-animated" data-animation="fadeInDown" data-animation-delay="1.2s" data-animation-duration="5s">CHAMARRAS</li>
+                    </ul>
+                  </div>
+                  <div class="col-12 col-lg-6 col-md-6 col-sm-6">
+                    <ul class="pt-5 ms-4 semi-bold">
+                      <li class=" wp-animated" data-animation="fadeInDown" data-animation-delay="0.7s" data-animation-duration="5s">LEGGINS</li>
+                      <li class="pt-3 wp-animated" data-animation="fadeInDown" data-animation-delay="0.9s" data-animation-duration="5s">TRAJES DE BAÑO</li>
+                      <li class="pt-3 wp-animated" data-animation="fadeInDown" data-animation-delay="1s" data-animation-duration="5s">GUANTES</li>
+                      <li class="pt-3 wp-animated" data-animation="fadeInDown" data-animation-delay="1.2s" data-animation-duration="5s">TODO LO QUE <br> IMAGINES</li>
+                    </ul>
+                  </div>
+                </div> 
+              </div>
+              <div class="col-12 col-lg-7 col-md-12 col-sm-12 pt-5 pb-5 wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/ropa-deportiva-body.jpg" class="d-block w-100" alt="TEXTYLO"/>                    
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/ropa-deportiva-camisa-manga.jpg" class="d-block w-100" alt="TEXTYLO"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/ropa-deportiva-mayas.jpg" class="d-block w-100" alt="TEXTYLO"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/ropa-deportiva-camisa-tirante.jpg" class="d-block w-100" alt="TEXTYLO"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/ropa-deportiva-pants.jpg" class="d-block w-100" alt="TEXTYLO"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/ropa-deportiva-sudadera.jpg" class="d-block w-100" alt="TEXTYLO"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/ropa-deportiva-traje-baño.jpg" class="d-block w-100" alt="TEXTYLO"/>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>    
       </div>
-      <div class="row d-flex justify-content-center pt-2">
-        <img src="img/textylo-logo.png" alt="TEXTYLO" class="img-fluid" id="logo-menu"/>
-       
-        <div class="mb-3 pt-5 text-center">
-          <div class="row d-flex justify-content-center">
-            <a href="">
-              <h1> INICIO</h1>
-             </a>
-            <hr class="menu_hr">
+      <div class="container wp-animated-group " id="amarillo">
+        <div class="row">
+          <div class="col-12 col-lg-2 col-md-12 col-sm-12 pt-4 wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
+            <div class="texto-vertical ms-5 ">
+              <h1 class="display-2" style="color: #e4cb30;">DECORACIÓN</h1>
+            </div>
           </div>
-        </div>
-        <div class="mb-3 text-center">
-          <div class="row d-flex justify-content-center">
-            <a href="#">
-              <h1>SOMOS</h1>
-              </a>
-            <hr class="menu_hr">
+          <div class="col-12 col-lg-10 col-md-12 col-sm-12 pt-2 amarillo">
+            <div class="row">
+              <div class="col-12 col-lg-5 col-md-12 col-sm-12 pt-5">
+                <img src="img/textylo-logo.png" alt="TEXTYLO" class="img-fluid ms-5 wp-animated" data-animation="fadeInDown" data-animation-duration="5s"/>
+                <h1 class="pt-5 ms-5 wp-animated" data-animation="fadeInDown" data-animation-delay="0.5s" data-animation-duration="5s">Llena tu vida <br> <b>de arte con</b> <br> sublimación</h1>
+                <div class="row">
+                  <div class="col-12 col-lg-6 col-md-6 col-sm-6">
+                    <ul class="pt-5 ms-4 semi-bold">
+                      <li class=" wp-animated" data-animation="fadeInDown" data-animation-delay="0.7s" data-animation-duration="5s">CUADROS <br> DECORATIVOS</li>
+                      <li class="pt-3 wp-animated" data-animation="fadeInDown" data-animation-delay="0.9s" data-animation-duration="5s">MANTELES</li>
+                      <li class="pt-3 wp-animated" data-animation="fadeInDown" data-animation-delay="1s" data-animation-duration="5s">CORTINAS</li>
+                      <li class="pt-3 wp-animated" data-animation="fadeInDown" data-animation-delay="1.2s" data-animation-duration="5s">COJINES</li>
+                    </ul>
+                  </div>
+                  <div class="col-12 col-lg-6 col-md-6 col-sm-6">
+                    <ul class="pt-5 ms-4 semi-bold">
+                      <li class=" wp-animated" data-animation="fadeInDown" data-animation-delay="0.7s" data-animation-duration="5s">ALMOHADAS</li>
+                      <li class="pt-3 wp-animated" data-animation="fadeInDown" data-animation-delay="0.9s" data-animation-duration="5s">SILLONES</li>
+                      <li class="pt-3 wp-animated" data-animation="fadeInDown" data-animation-delay="1s" data-animation-duration="5s">LÁMPARAS</li>
+                      <li class="pt-3 wp-animated" data-animation="fadeInDown" data-animation-delay="1.2s" data-animation-duration="5s">TODO LO QUE <br> IMAGINES</li>
+                    </ul>
+                  </div>
+                </div> 
+              </div>
+              <div class="col-12 col-lg-7 col-md-12 col-sm-12 pt-5 pb-5 wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/decoracion-cobija.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/decoracion-cojin.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/decoracion-cuadro.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/decoracion-cojines.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/decoracion-lampara.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/decoracion-cuadros.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/decoracion-mandil.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/decoracion-silla.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
-          
-        </div>
-        <div class="mb-3 text-center">
-          <div class="row d-flex justify-content-center">
-            <a href="#">
-              <h1>VENTAJAS</h1>
-              </a>
-            <hr class="menu_hr">
+        </div>    
+      </div>
+      <div class="container wp-animated-group " id="verde">
+        <div class="row">
+          <div class="col-12 col-lg-2 col-md-12 col-sm-12 pt-4  wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
+            <div class="texto-vertical ms-5 ">
+              <h1 class="display-4" style=" color: #56983f;">ROPA Y PRENDAS</h1>
+            </div>
           </div>
-        </div>
-        <div class="mb-3 text-center">
-          <div class="row d-flex justify-content-center">
-            <a href="#">
-              <h1>APLICACIONES</h1>
-            </a>
-            <hr class="menu_hr">
-          </div> 
-        </div>
-        <div class="mb-3 text-center">
-          <div class="row d-flex justify-content-center">
-            <a href="#">
-              <h1>SERVICIOS</h1>
-              </a>
-            <hr class="menu_hr">
+          <div class="col-12 col-lg-10 col-md-12 col-sm-12 pt-2 verde">
+            <div class="row">
+              <div class="col-12 col-lg-5 col-md-12 col-sm-12 pt-5">
+                <img src="img/textylo-logo.png" alt="TEXTYLO" class="img-fluid ms-5 wp-animated" data-animation="fadeInDown" data-animation-duration="5s"/>
+                <h1 class="pt-5 ms-5 wp-animated" data-animation="fadeInDown" data-animation-delay="0.5s" data-animation-duration="5s">Lleva las nuevas<br> <b>tendencias de moda</b> <br> contigo</h1>
+                <div class="row">
+                  <div class="col-12 col-lg-6 col-md-6 col-sm-6">
+                    <ul class="pt-5 ms-4 semi-bold">
+                      <li class=" wp-animated" data-animation="fadeInDown" data-animation-delay="0.7s" data-animation-duration="5s">VESTIDOS</li>
+                      <li class="pt-3 wp-animated" data-animation="fadeInDown" data-animation-delay="0.9s" data-animation-duration="5s">PLAYERAS</li>
+                      <li class="pt-3 wp-animated" data-animation="fadeInDown" data-animation-delay="1s" data-animation-duration="5s">CAMISAS</li>
+                      <li class="pt-3 wp-animated" data-animation="fadeInDown" data-animation-delay="1.2s" data-animation-duration="5s">PANTALONES</li>
+                  </ul>
+                  </div>
+                  <div class="col-12 col-lg-6 col-md-6 col-sm-6">
+                    <ul class="pt-5 ms-4 semi-bold">
+                      <li class=" wp-animated" data-animation="fadeInDown" data-animation-delay="0.7s" data-animation-duration="5s">GORRAS</li>
+                      <li class="pt-3 wp-animated" data-animation="fadeInDown" data-animation-delay="0.9s" data-animation-duration="5s">PASHIMINAS</li>
+                      <li class="pt-3 wp-animated" data-animation="fadeInDown" data-animation-delay="1s" data-animation-duration="5s">FALDAS</li>
+                      <li class="pt-3 wp-animated" data-animation="fadeInDown" data-animation-delay="1.2s" data-animation-duration="5s">TODO LO QUE <br> IMAGINES</li>
+                    </ul>
+                  </div>
+                </div> 
+              </div>
+              <div class="col-12 col-lg-7 col-md-12 col-sm-12 pt-5 pb-5 wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                      <img src="img/ropa-calcetin.jpg" class="d-block w-100" alt="TEXTYLO"/>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <img src="img/ropa-camisa.jpg" class="d-block w-100" alt="TEXTYLO"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/ropa-corbata.jpg" class="d-block w-100" alt="TEXTYLO"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/ropa-playera.jpg" class="d-block w-100" alt="TEXTYLO"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/ropa-shorts.jpg" class="d-block w-100" alt="TEXTYLO"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/ropa-vestidos.jpg" class="d-block w-100" alt="TEXTYLO"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/ropa-sombreros.jpg" class="d-block w-100" alt="TEXTYLO"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/ropa-short.jpg" class="d-block w-100" alt="TEXTYLO"/>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/ropa-calcetin.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid" />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/ropa-camisa.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/ropa-corbata.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/ropa-playera.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/ropa-short.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/ropa-vestidos.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/ropa-sombreros.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/ropa-shorts.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="mb-3 text-center">
-          <div class="row d-flex justify-content-center">
-            <a href="#"><h1>CONTACTO</h1> </a>
-            <hr class="menu_hr">
-          </div>
-          
-        </div>
-        <div class="mb-4 pt-4">
-          <h5 class="text-center">© 2022 TEXTYLO. TODOS LOS DERECHOS RESERVADOS</h5>
-          <div class="d-flex justify-content-center">
-            <img src="img/materialized-blueberry.gif" alt="MATERIALIZED BY Blueberry" id="bb" class="img-fluid pt-2 pb-3"/>
-          </div>
-        </div>
+        </div>    
       </div>
     </div>
   </div>
-</div>-->
 
-<a href="#" class="btn-flotante"><img src="img/top-button.png" alt=""></a>
-  <div class="rop">
-    <a class=" texto-3" id="ropa-tab" data-bs-toggle="pill" data-bs-target="#ropa" type="button" role="tab" aria-controls="ropa" aria-selected="false">ROPA</a>
-    
-  </div>
-  <div class="d-flex justify-content-start">
-    <img src="img/flecha-verde.png" alt="TEXTYLO" class="img-fluid"/>
+  <!--PODEMOS SUBLIMAR TODO-->
+  <div class="container-fluid pt-5 azul pb-5">
+    <div class="container">
+      <div class="row wp-animated-group">
+        <div class="col-12 col-lg-2 col-md-6 col-sm-6"></div>
+        <div class="col-12 col-lg-4 col-md-6 col-sm-6">
+          <img src="img/textylo-logo.png" alt="TEXTYLO" class="img-fluid pb-4 wp-animated" data-animation="fadeInDown" data-animation-duration="5s"/>
+          <h1 class="wp-animated light display-4" data-animation="fadeInDown" data-animation-delay="0.2s" data-animation-duration="5s">Podemos <br>
+            <b class="extra-bold">sublimar</b> <br>
+            todo</h1>
+          <div class="wp-animated" data-animation="fadeInDown" data-animation-delay="0.2s" data-animation-duration="5s">
+            <button class="btn btn-primary">
+              <a href="https://api.whatsapp.com/send?phone=5554360428" target="_blank" rel="noopener noreferrer">555 436 0428</a>
+            </button>
+          </div>    
+        </div>
+        <div class="col-12 col-lg-4 col-md-6 col-sm-6 reveal wp-animated" data-animation="fadeInRight" data-animation-duration="3s">
+          <img src="img/pillow.png" alt="TEXTYLO" class="img-fluid almohada"/>
+          <img src="img/sudadera.png" alt="TEXTYLO"class="img-fluid sudadera"/>
+        </div>
+        <div class="col-12 col-lg-2 col-md-6 col-sm-6"></div>
+      </div>
+    </div>
   </div>
   
+
+ <!--
     <div class="container pt-5">
         <div class="row">
             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -191,7 +422,7 @@
                       <img src="img/flecha-amarilla.png" alt="TEXTYLO" class="img-fluid"/>
                     </div>
                 </li>
-                <li class="nav-item ms-3" role="presentation" >
+                <li class="nav-item ms-3 " role="presentation" >
                     <img src="img/ropa.png" alt="TEXTYLO" class="img-fluid rop" width="300px"/><br>
                     <a class=" texto-3" id="ropa-tab" data-bs-toggle="pill" data-bs-target="#ropa" type="button" role="tab" aria-controls="ropa" aria-selected="false">ROPA</a>
                     <div class="d-flex justify-content-center">
@@ -270,7 +501,7 @@
                   </div>
                 </div>
                 <div class="tab-pane fade " id="ropa-deportiva" role="tabpanel" aria-labelledby="ropa-deportiva-tab">
-                  <div class="container">
+                  <div class="container ">
                     <div class="row">
                       <div class="col-12 col-lg-2 col-md-12 col-sm-12 pt-4">
                         <div class="texto-vertical ms-5 ">
@@ -279,29 +510,29 @@
                       </div>
                       <div class="col-12 col-lg-10 col-md-12 col-sm-12 pt-2 azu">
                         <div class="row">
-                          <div class="col-12 col-lg-6 col-md-12 col-sm-12 pt-5">
+                          <div class="col-12 col-lg-5 col-md-12 col-sm-12 pt-5">
                             <img src="img/textylo-logo.png" alt="TEXTYLO" class="img-fluid ms-5"/>
                             <h1 class="pt-5 ms-5">Lleva tu identidad <br> <b>en cada evento</b> <br> deportivo</h1>
                             <div class="row">
                               <div class="col-12 col-lg-6 col-md-6 col-sm-6">
-                                  <ul class="pt-5 ms-4 semi-bold">
-                                    <li>PLAYERAS</li>
-                                    <li class="pt-3">SHORTS</li>
-                                    <li class="pt-3">PANTS</li>
-                                    <li class="pt-3">CHAMARRAS</li>
-                                  </ul>
-                                </div>
-                                <div class="col-12 col-lg-6 col-md-6 col-sm-6">
-                                  <ul class="pt-5 ms-4 semi-bold">
-                                    <li>LEGGINS</li>
-                                    <li class="pt-3">TRAJES DE BAÑO</li>
-                                    <li class="pt-3">GUANTES</li>
-                                    <li class="pt-3">TODO LO QUE <br> IMAGINES</li>
-                                  </ul>
-                                </div>
+                                <ul class="pt-5 ms-4 semi-bold">
+                                  <li>PLAYERAS</li>
+                                  <li class="pt-3">SHORTS</li>
+                                  <li class="pt-3">PANTS</li>
+                                  <li class="pt-3">CHAMARRAS</li>
+                                </ul>
                               </div>
+                              <div class="col-12 col-lg-6 col-md-6 col-sm-6">
+                                <ul class="pt-5 ms-4 semi-bold">
+                                  <li>LEGGINS</li>
+                                  <li class="pt-3">TRAJES DE BAÑO</li>
+                                  <li class="pt-3">GUANTES</li>
+                                  <li class="pt-3">TODO LO QUE <br> IMAGINES</li>
+                                </ul>
+                              </div>
+                            </div> 
                           </div>
-                          <div class="col-12 col-lg-6 col-md-12 col-sm-12 pt-5 pb-5">
+                          <div class="col-12 col-lg-7 col-md-12 col-sm-12 pt-5 pb-5">
                             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                               <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -311,10 +542,10 @@
                                   <img src="img/ropa-deportiva-camisa-manga.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
                                 </div>
                                 <div class="carousel-item">
-                                  <img src="img/ropa-deportiva-camisa-tirante.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
+                                  <img src="img/ropa-deportiva-mayas.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
                                 </div>
                                 <div class="carousel-item">
-                                  <img src="img/ropa-deportiva-mayas.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
+                                  <img src="img/ropa-deportiva-camisa-tirante.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
                                 </div>
                                 <div class="carousel-item">
                                   <img src="img/ropa-deportiva-pants.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
@@ -338,11 +569,12 @@
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div>    
                   </div>
+                  
                 </div>
                 <div class="tab-pane fade " id="sublimacion" role="tabpanel" aria-labelledby="sublimacion-tab">
-                  <div class="container">
+                  <div class="container ">
                     <div class="row">
                       <div class="col-12 col-lg-2 col-md-12 col-sm-12 pt-4">
                         <div class="texto-vertical ms-5 ">
@@ -351,7 +583,7 @@
                       </div>
                       <div class="col-12 col-lg-10 col-md-12 col-sm-12 pt-2 amarillo">
                         <div class="row">
-                          <div class="col-12 col-lg-6 col-md-12 col-sm-12 pt-5">
+                          <div class="col-12 col-lg-5 col-md-12 col-sm-12 pt-5">
                             <img src="img/textylo-logo.png" alt="TEXTYLO" class="img-fluid ms-5"/>
                             <h1 class="pt-5 ms-5">Llena tu vida <br> <b>de arte con</b> <br> sublimación</h1>
                             <div class="row">
@@ -373,7 +605,7 @@
                               </div>
                             </div> 
                           </div>
-                          <div class="col-12 col-lg-6 col-md-12 col-sm-12 pt-5 pb-5">
+                          <div class="col-12 col-lg-7 col-md-12 col-sm-12 pt-5 pb-5">
                             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                               <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -383,10 +615,10 @@
                                   <img src="img/decoracion-cojin.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
                                 </div>
                                 <div class="carousel-item">
-                                  <img src="img/decoracion-cojines.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
+                                  <img src="img/decoracion-cuadro.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
                                 </div>
                                 <div class="carousel-item">
-                                  <img src="img/decoracion-cuadro.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
+                                  <img src="img/decoracion-cojines.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
                                 </div>
                                 <div class="carousel-item">
                                   <img src="img/decoracion-cuadros.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
@@ -413,11 +645,11 @@
                           </div>
                         </div>
                       </div>
-                    </div>   
+                    </div>    
                   </div>
                 </div>
                 <div class="tab-pane fade " id="ropa" role="tabpanel" aria-labelledby="ropa-tab">
-                  <div class="container">
+                  <div class="container ">
                     <div class="row">
                       <div class="col-12 col-lg-2 col-md-12 col-sm-12 pt-4">
                         <div class="texto-vertical ms-5 ">
@@ -426,17 +658,17 @@
                       </div>
                       <div class="col-12 col-lg-10 col-md-12 col-sm-12 pt-2 verde">
                         <div class="row">
-                          <div class="col-12 col-lg-6 col-md-12 col-sm-12 pt-5">
+                          <div class="col-12 col-lg-5 col-md-12 col-sm-12 pt-5">
                             <img src="img/textylo-logo.png" alt="TEXTYLO" class="img-fluid ms-5"/>
                             <h1 class="pt-5 ms-5">Lleva las nuevas<br> <b>tendencias de moda</b> <br> contigo</h1>
                             <div class="row">
                               <div class="col-12 col-lg-6 col-md-6 col-sm-6">
                                 <ul class="pt-5 ms-4 semi-bold">
-                                    <li>VESTIDOS</li>
-                                    <li class="pt-3">PLAYERAS</li>
-                                    <li class="pt-3">CAMISAS</li>
-                                    <li class="pt-3">PANTALONES</li>
-                                </ul>
+                                  <li>VESTIDOS</li>
+                                  <li class="pt-3">PLAYERAS</li>
+                                  <li class="pt-3">CAMISAS</li>
+                                  <li class="pt-3">PANTALONES</li>
+                              </ul>
                               </div>
                               <div class="col-12 col-lg-6 col-md-6 col-sm-6">
                                 <ul class="pt-5 ms-4 semi-bold">
@@ -446,9 +678,9 @@
                                   <li class="pt-3">TODO LO QUE <br> IMAGINES</li>
                                 </ul>
                               </div>
-                            </div>
+                            </div> 
                           </div>
-                          <div class="col-12 col-lg-6 col-md-12 col-sm-12 pt-5 pb-5">
+                          <div class="col-12 col-lg-7 col-md-12 col-sm-12 pt-5 pb-5">
                             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                               <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -467,13 +699,13 @@
                                   <img src="img/ropa-short.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
                                 </div>
                                 <div class="carousel-item">
-                                  <img src="img/ropa-shorts.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
+                                  <img src="img/ropa-vestidos.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
                                 </div>
                                 <div class="carousel-item">
                                   <img src="img/ropa-sombreros.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
                                 </div>
                                 <div class="carousel-item">
-                                  <img src="img/ropa-vestidos.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
+                                  <img src="img/ropa-shorts.jpg" class="d-block w-100" alt="TEXTYLO" class="img-fluid"/>
                                 </div>
                               </div>
                               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -488,16 +720,18 @@
                           </div>
                         </div>
                       </div>
-                    </div> 
+                    </div>    
                   </div>
                 </div>
               </div>
-   
+   -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+   <script src="lib/easy-waypoint-animate.js"></script>
+   <script src="lib/jquery.waypoints.js"></script>
+   <script src="js/script.js"></script>
 </body>
 </html>
