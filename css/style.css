@@ -488,6 +488,9 @@ footer a{
     .sudadera{
         max-width: 280px;
     }
+    .showcase{
+        width: 400px;
+    }
 }
 @media screen and (max-width:500px){
     .whats{
